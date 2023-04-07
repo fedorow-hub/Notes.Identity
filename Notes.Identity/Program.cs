@@ -1,7 +1,6 @@
-using System.IO;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Notes.Identity;
 using Notes.Identity.Data;
 using Notes.Identity.Models;

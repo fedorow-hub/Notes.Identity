@@ -87,15 +87,15 @@ public static class Configuration
                 RequirePkce = true,//говорит о том, что нужен ключ подтверждения для Authorization Code
                 RedirectUris = //это набор Uri адресов, куда может происходить перенаправление после аутентификации клиентского приложения
                 {
-                    "http://.../signin-oidc"//после базового адреса клиента (который мы пока не знаем) должен присутствовать signin-oidc
+                    "http://localhost:3000/signin-oidc"//после базового адреса клиента (который мы пока не знаем) должен присутствовать signin-oidc
                 },
                 AllowedCorsOrigins = //набор Uri адресов, кому позволено использовать Identity server
                 {
-                    "http://..."
+                    "http://localhost:3000"
                 },
                 PostLogoutRedirectUris = //набор Uri адресов, куда может происходить перенаправление после выхода клиентского приложения
                 {
-                    "http://.../signout-oidc"//после базового адреса клиента (который мы пока не знаем) должен присутствовать signout-oidc
+                    "http://localhost:3000/signout-oidc"//после базового адреса клиента (который мы пока не знаем) должен присутствовать signout-oidc
                 },
                 AllowedScopes = //это области или Scopes, доступные клиенту
                 {
